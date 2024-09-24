@@ -29,10 +29,10 @@ public class FXMLController implements Initializable {
     @FXML
     private void handleButtonAction_ketto(ActionEvent event) {
         System.out.println("You clicked me!");
-        label.setText("Hello World!");
+        label.setText(MainApp.Counter.toString());
         Integer Counter = MainApp.Counter;
         System.out.println("Counter értéke: " + Counter);
-        MainApp.Counter += 2;
+        MainApp.Counter += 1;
     }
     @FXML
     private void progessBarLoader(ActionEvent event) {
@@ -41,6 +41,7 @@ public class FXMLController implements Initializable {
         Integer Counter = MainApp.Counter;
         System.out.println("Counter értéke: " + Counter);
         MainApp.ProgressBarCounter += 0.1;
+        if (MainApp.ProgressBarCounter >= 1.0) MainApp.ProgressBarCounter = 0.0;
         //test
         clickCounter.setProgress(MainApp.ProgressBarCounter);
 
