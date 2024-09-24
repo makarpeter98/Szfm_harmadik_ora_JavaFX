@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c383da8e-d885-4d71-ae60-9b73da82675a" name="Changes" comment="Init Commit">
+    <list default="true" id="c383da8e-d885-4d71-ae60-9b73da82675a" name="Changes" comment="Sziasztok!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/FXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/FXMLController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/unideb/inf/FXMLController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/unideb/inf/FXMLController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/unideb/inf/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/unideb/inf/MainApp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +43,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.JavaFX11 [org.openjfx:javafx-maven-plugin:0.0.4:run].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/makar/IdeaProjects/JavaFX11_start"
+    "last_opened_file_path": "C:/Users/makar/IdeaProjects/JavaFX11_start",
+    "settings.editor.selected.configurable": "preferences.JavaFX"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -62,7 +69,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727159088023</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sziasztok!">
+      <option name="closed" value="true" />
+      <created>1727159529436</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727159529436</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init Commit" />
+    <MESSAGE value="Sziasztok!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sziasztok!" />
   </component>
 </project>

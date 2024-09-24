@@ -16,8 +16,20 @@ public class FXMLController implements Initializable {
     private void handleButtonAction(ActionEvent event) {
         System.out.println("You clicked me!");
         label.setText("Hello World!");
+        Integer Counter = MainApp.Counter;
+        System.out.println("Counter értéke: " + Counter);
+        MainApp.Counter++;
     }
-    
+
+    @FXML
+    private void handleButtonAction_ketto(ActionEvent event) {
+        System.out.println("You clicked me!");
+        label.setText("Hello World!");
+        Integer Counter = MainApp.Counter;
+        System.out.println("Counter értéke: " + Counter);
+        MainApp.Counter += 2;
+    }
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
