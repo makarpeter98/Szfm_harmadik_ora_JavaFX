@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c383da8e-d885-4d71-ae60-9b73da82675a" name="Changes" comment="Counter kód">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c383da8e-d885-4d71-ae60-9b73da82675a" name="Changes" comment="Progress bar kód">
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/FXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/FXMLController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/unideb/inf/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Scene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Scene.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727160843155</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Progress bar kód">
+      <option name="closed" value="true" />
+      <created>1727161561735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727161561735</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +107,7 @@
     <MESSAGE value="Init Commit" />
     <MESSAGE value="Sziasztok!" />
     <MESSAGE value="Counter kód" />
-    <option name="LAST_COMMIT_MESSAGE" value="Counter kód" />
+    <MESSAGE value="Progress bar kód" />
+    <option name="LAST_COMMIT_MESSAGE" value="Progress bar kód" />
   </component>
 </project>

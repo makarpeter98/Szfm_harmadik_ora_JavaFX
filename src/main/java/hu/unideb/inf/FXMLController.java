@@ -41,6 +41,7 @@ public class FXMLController implements Initializable {
         Integer Counter = MainApp.Counter;
         System.out.println("Counter értéke: " + Counter);
         MainApp.ProgressBarCounter += 0.1;
+        //test
         clickCounter.setProgress(MainApp.ProgressBarCounter);
 
     }
