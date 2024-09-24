@@ -11,11 +11,13 @@ import javafx.stage.Stage;
 public class MainApp extends Application {
 
     public static Integer Counter;
+    public static Double ProgressBarCounter;
 
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/Scene.fxml"));
         Counter = 0;
+        ProgressBarCounter = 0.0;
         Scene scene = new Scene(root);
         scene.getStylesheets().add("/styles/Styles.css");
         
